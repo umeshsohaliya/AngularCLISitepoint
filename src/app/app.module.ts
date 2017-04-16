@@ -4,10 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+// import { Todo } from './todo';
+import { UmeshTestComponent } from './umesh-test/umesh-test.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // Todo,
+    UmeshTestComponent
   ],
   imports: [
     BrowserModule,
@@ -18,3 +21,5 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class todo{}
+export class umesh{}

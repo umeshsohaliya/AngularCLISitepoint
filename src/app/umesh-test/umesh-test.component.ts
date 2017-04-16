@@ -11,9 +11,14 @@ import {SerUmeshTestService} from './../ser-umesh-test.service';
 
 export class UmeshTestComponent implements OnInit {
 objumm :SerUmeshTestService = new SerUmeshTestService();
-  constructor(private objum:SerUmeshTestService) { }
-
+ 
+  constructor(private objum:SerUmeshTestService) { 
+   
+  }
+objclsum:ClsUmeshTest = new ClsUmeshTest();
+developerName:String = this.objum.GetDeveloperName(this.objclsum);
   ngOnInit() {
+    
   }
 
 }

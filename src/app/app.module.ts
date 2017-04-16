@@ -18,7 +18,7 @@ import { UmeshTestComponent } from './umesh-test/umesh-test.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,UmeshTestComponent]
 })
 export class AppModule { }
 export class todo{}
